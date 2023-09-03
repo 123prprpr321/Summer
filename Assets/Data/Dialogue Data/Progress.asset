@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d6cedd79d445f47adf09fba878e87c, type: 3}
+  m_Name: Progress
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 0}
+    text: "\u4EFB\u52A1\u662F\u6D88\u706D\u8FD9\u4E2A\u5730\u56FE\u6240\u6709\u654C\u4EBA\u54DF\uFF01"
+    quest: {fileID: 0}
+    options:
+    - text: "\u6211\u77E5\u9053\u4E86"
+      targetID: 
+      takeQuest: 0

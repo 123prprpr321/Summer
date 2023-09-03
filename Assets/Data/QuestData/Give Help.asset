@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c894b804695afb748b46330794ebef40, type: 3}
+  m_Name: Give Help
+  m_EditorClassIdentifier: 
+  questName: "\u6177\u6168\u52A9\u4EBA"
+  description: "\u6709\u4EBA\u53D7\u4F24\u4E86\uFF0C\u9700\u8981\u6CBB\u7597\u836F\u6C34"
+  isStarted: 0
+  isComplete: 0
+  isFinished: 0
+  questRequires:
+  - name: "\u8840\u74F6"
+    requireAmount: 2
+    currentAmount: 0
+  rewards:
+  - itemData: {fileID: 11400000, guid: 8f093f9169093284a930913fe48ac27b, type: 2}
+    amount: 1
+  - itemData: {fileID: 11400000, guid: b0cfb243588d4af41966c2dd81635d66, type: 2}
+    amount: -2

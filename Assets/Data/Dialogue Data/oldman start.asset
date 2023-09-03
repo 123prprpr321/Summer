@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d6cedd79d445f47adf09fba878e87c, type: 3}
+  m_Name: oldman start
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 0}
+    text: "mxmx\uFF0C233\uFF0C\u4F60\u597D\u5417"
+    quest: {fileID: 0}
+    options:
+    - text: "\u6211\u5F88\u597D"
+      targetID: 
+      takeQuest: 0
+    - text: "\u6211\u4E0D\u597D"
+      targetID: 2
+      takeQuest: 0
+  - ID: 2
+    image: {fileID: 0}
+    text: "\u53BB\u6D88\u706D\u654C\u4EBA\u5427\uFF0C\u6211\u4F1A\u7ED9\u4F60\u4E00\u4E9B\u5956\u52B1\u7684"
+    quest: {fileID: 11400000, guid: 786ec254bfb74d04d9bbe3c91477f53c, type: 2}
+    options:
+    - text: "\u6211RUN"
+      targetID: 
+      takeQuest: 0
+    - text: "\u597D\u5427"
+      targetID: 3
+      takeQuest: 1
+  - ID: 3
+    image: {fileID: 0}
+    text: "\u51FA\u53D1\u5427"
+    quest: {fileID: 0}
+    options:
+    - text: "\u7B49\u4E00\u4F1A"
+      targetID: 
+      takeQuest: 0
+    - text: "\u597D\u7684"
+      targetID: 
+      takeQuest: 0
